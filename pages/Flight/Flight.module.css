@@ -1,0 +1,29 @@
+.airportCode {
+    color:gray;
+}
+
+.sourceSite{
+    color:lightGrey;
+    font-size: large;
+    line-height: 0.5;
+}
+.time{
+    float:right;
+    color:grey;
+}
+.selectButton{
+    width:125px;
+    float:right;
+    font-size: 130%;
+    background-color:#00A698;
+}
+.green{
+    color: #00a698;
+}
+.red{
+ color:#d1435b;
+}
+.price{
+    font-size:200%;
+    line-height: 150%;
+}
