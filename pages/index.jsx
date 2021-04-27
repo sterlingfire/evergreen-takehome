@@ -20,7 +20,8 @@ export default function Home() {
               return <Flight
                       itinerary={itinerary}
                       departureLeg={leg1}
-                      returnLeg={leg2}  />})}
+                      returnLeg={leg2}
+                      key={itinerary.id}  />})}
           </Row>
         </Container>
       </Container>
