@@ -1,4 +1,4 @@
-import Head from 'next/head'
+// import Head from 'next/head'
 import Header from './Header'
 import Flight from './Flight'
 import { Container, Row, Card, Button } from 'react-bootstrap'
@@ -7,9 +7,9 @@ import {itineraries,legs} from '../public/static/flights.json';
 export default function Home() {
   return (
     <Container className="md-container">
-      <Head>
+      {/* <Head> */}
         <Header />
-      </Head>
+      {/* </Head> */}
       <Container>
         <Container>
           <Row className="justify-content-md-between">
