@@ -7,10 +7,8 @@ import {itineraries,legs} from '../public/static/flights.json';
 export default function Home() {
   return (
     <Container className="md-container">
-      {/* <Head> */}
-        <Header />
-      {/* </Head> */}
       <Container>
+        <Header />
         <Container>
           <Row className="justify-content-md-between">
             {itineraries.map(itinerary => {

@@ -4,7 +4,10 @@ import {Navbar} from 'react-bootstrap'
 
 const Header = () => (
  <header>
-    <Navbar style={{padding:0, filter: "drop-shadow(0px 5px 3px #ccc)"}} bg="light">
+    <Navbar style={{padding:0,
+                    marginBottom: "5px",
+                    borderRadius: "5px",
+                    filter: "drop-shadow(0px 5px 3px #ccc)"}} bg="light">
       <Navbar.Brand href="/">
         <img
           src="/logo.png"
